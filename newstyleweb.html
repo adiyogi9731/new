@@ -1,0 +1,589 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>newstyle web</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: sans-serif
+        }
+
+        .header {
+            text-align: center;
+            padding: 10px;
+            background: #134f70;
+            color: #fff;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #333;
+            justify-content:center;
+        }
+
+            .navbar a {
+                text-decoration: none;
+                padding: 20px;
+                color: #fff;
+            }
+
+                .navbar a:hover {
+                    background: #ddd;
+                    color: black;
+                }
+                  .navbar a:hover,
+                .navbar a.active {
+                    background: #ddd;
+                    color:black;
+                }
+                 
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .aside {
+            flex: 30%;
+            background-color: #eef2f7;
+            padding: 20px;
+        }
+
+
+        .menu {
+           
+            background: #fff;
+            flex: 70%;
+            text-align:center;
+        }
+        .men{
+               display: flex;
+            flex-wrap: wrap;
+            background:lightgrey;
+            padding:20px;
+            text-align:justify;
+        }
+        .pani{
+            flex:25%;
+            width:100%;
+            text-align:center;
+            
+        }
+           .pan{
+            flex:25%;
+            width:100%;
+            text-align:center;
+            
+        }
+              .pa{
+            flex:25%;
+            width:100%;
+            text-align:center;
+            
+        }
+                 .p{
+            flex:25%;
+            width:100%;
+            text-align:center;
+            
+        }
+       
+        .i  h1{
+            padding: 20px;
+            width: 100%;
+            height: auto;
+             background:#44a6b6;
+             color:#fff;
+           
+        }
+      
+           .im {
+            display: flex;
+            background-color: #333;
+            justify-content:center;
+            width:100%;
+            height:auto;
+            border:1px solid black;
+            border-radius:5px;
+            flex:33%;
+        }
+
+            .im a {
+                text-decoration: none;
+                padding: 10px;
+                color: #fff;
+                font-size:20px;
+            }
+
+     
+               .one{
+                   display:flex;
+                 flex-wrap:wrap;
+                 margin:5px;
+                   
+               }
+               .two{
+                   flex:30%;
+                      width:100%;
+                   height:auto;
+                     background-color:#44a6b6;
+                     padding:10px;
+                     margin:5px;
+                      text-align:center;
+               }
+               .two a{
+                  
+                   text-decoration:none;
+                   color:#fff;
+                   text-align:justify;
+               }
+
+                .thre{
+                   flex:30%;
+                      width:100%;
+                   height:auto;
+                     background-color:#44a6b6;
+                      padding:10px;
+                      margin:5px;
+                       text-align:center;
+               }
+                 .thre a{
+                 
+                   text-decoration:none;
+                   color:#fff;
+                   margin:5px;
+                    text-align:justify;
+               }
+                 .four{
+                   flex:30%;
+                  background-color:#44a6b6;
+                  padding:18px;
+                  width:100%;
+                   height:auto;
+                   margin:5px;
+                    text-align:center;
+               }
+                  .four a{
+                   
+                   text-decoration:none;
+                   color:#fff;
+                    text-align:justify;
+               }
+			   .okk{
+			        
+			       display:flex;
+				   flex-wrap:wrap;
+				 
+			   }
+			   .okkk img{
+			     flex:30%;
+				  width: 100%;
+				  height:150px;
+                  
+					
+				}
+                  .java{
+                      flex:50%;
+                     margin:5px;
+
+                  }
+                  .jav{
+                      display:flex;
+                      flex-direction:column;
+                      padding:10px;
+                      margin:10px;
+                     
+                  }
+                  .jav a{
+                      flex-direction:column;
+                      text-decoration:none;
+                      color:#000;
+                      padding:10px;
+                      font-size:18px;
+
+                  }
+
+        .connect {
+          padding:10px;
+          margin:10px;
+
+        }
+        .five{
+        margin:auto;
+           padding:5px;
+           font-size:20px;
+
+        }
+        .seven{
+            width:78%;
+        }
+         .six{
+             margin:auto;
+             padding:10px;
+
+         }
+         
+         .six a{
+             text-decoration:none;
+             color:black;
+             font-size:24px;
+
+         }
+         .nine{
+            width:78%;
+        }
+               .eight{
+        margin:auto;
+           padding:5px;
+           font-size:24px;
+
+        }
+        .nanual {
+            display:flex;
+            flex-wrap:wrap;
+        }
+        .nanua{
+            flex:30%;
+            text-align:center;
+        }
+        .nanu{
+            flex:30%;
+            text-align:center;
+        }
+        .nan{
+            flex:30%;
+            text-align:center;
+        }
+        .manual {
+            display: flex;
+          
+        }
+        .manua {
+          
+            
+            justify-content:center;
+            width:100%;
+            height:auto;
+            border:1px solid black;
+            border-radius:5px;
+            flex:30%;
+            margin:10px;
+            padding: 20px;
+        }
+
+            .manua a {
+                text-decoration: none;
+                padding: 20px;
+                color: black;
+                font-size:20px;
+                text-align:center;
+            }
+            .manu{
+          
+            background:darkorange;
+            justify-content:center;
+            width:100%;
+            height:auto;
+            border:1px solid black;
+          border-radius:5px;
+            flex:30%;
+            margin:10px;
+            padding: 20px;
+        }
+
+            .manu a {
+                text-decoration: none;
+                padding: 20px;
+                color: black;
+                font-size:20px;
+                text-align:center;
+            }
+            .man{
+          
+            
+            justify-content:center;
+            width:100%;
+            height:auto;
+            border:1px solid black;
+            border-radius:5px;
+            flex:30%;
+            margin:10px;
+            padding: 20px;
+        }
+
+            .man a {
+                text-decoration: none;
+                padding:0 2px;
+                color: black;
+                font-size:20px;
+                text-align:center;
+            }
+            .in{
+                flex:30%;
+                display:flex;
+                font-size:20px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                margin:5px;
+                padding:15px;
+                width:100%;
+                text-align:center;
+            }
+            .nonsense{
+                display:flex;
+                flex-wrap:wrap;
+            }
+            .inr{
+            flex:30%;
+            display:flex;
+            font-size:18px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            padding:1px;
+            text-align:justify;
+            width:100%;
+            margin:5px;
+        }
+            .inr li{
+                margin:5px;
+                padding:14px;
+            }
+            .nonsens{
+                flex:50%;
+                
+            }
+       
+        .footer {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background: #134f70;
+            color:#fff;
+        }
+
+        @media screen and (max-width: 700px) {
+            .row, .navbar ,.manual,.nonsense {
+                flex-direction: column;
+            }
+            .nanual{
+                display:none;
+            }
+            .in{
+                justify-content:center;
+            }
+             .inr{
+                justify-content:center;
+            }
+             .nonsens{
+                 justify-content:space-around;
+             }
+            .one{
+                display:none;
+            }
+              .i h1{
+            display:none;
+           
+        }
+              .java{
+                  display:none;
+              }
+              .jaa{
+                      flex:50%;
+                     margin:5px;
+                     justify-content:center;
+
+                  }
+                  .jav{
+                      display:flex;
+                      flex-direction:column;
+                      padding:10px;
+                      margin:10px;
+                     
+                  }
+                  .jav a{
+                      flex-direction:column;
+                      text-decoration:none;
+                      color:#000;
+                      padding:10px;
+                      font-size:18px;
+
+                  }
+        }
+         @media screen and (min-width: 1000px) and (max-width:4000px){
+             .jaa{
+                 display:none;
+             }
+         }
+       
+    </style>
+</head>
+<body>
+   
+    <div class="header">
+        <h1>Emergency Medicine Delivery services</h1>
+        <h5>customers satiffaction is our motto</h5>
+    </div>
+    <div class="navbar">
+        <a href="C:\Users\nandishkarki\Desktop\New folder\newstyleweb.html" class="active">Home</a>
+        <a href="#">Medicine</a>
+        <a href="#">Health Products</a>
+        <a href="tel:+916360473856">Contact</a>
+    
+      
+    </div>
+    <div class="row">
+        <div class="aside">
+
+            <div class="i">
+                <h1>ONE STOP PHARMACY FOR ALL YOUR HEALTH NEEDS</h1>
+            </div>
+  
+            <div class="im">
+                <a href="tel:+916360473856" ><span>Click to Order</span><br> 6360473856</a>
+               
+            </div>
+            <div class="one">
+                <div class="two"><a href="#">Health Products</a></div> 
+                <div class="thre"><a href="#">Doctor Consultation</a></div>
+                <div class="four"><a href="#"> lab tests</a></div>
+            </div>
+			<div class="okk">
+			<div class="okkk">
+			<img src="https://cdn2.iconfinder.com/data/icons/medical-10-1/512/xxx013-512.png" alt="not found">
+			</div>
+			</div>
+             <div class="java">
+                 <h3>Follow Us on Social Media</h3>
+                 <div class="jav">
+
+                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><span> Instagram</span></a>
+                     <a href="#"><i class="fa fa-comment" aria-hidden="true"></i><span> Messenger</span></a>
+                     <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span> Email</span></a>
+                     <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i><span> Whatsapp</span></a>
+                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+                 </div>
+
+             </div>
+           
+        </div>
+        <div class="menu">
+            <div class="men">
+                <div class="pani">
+                    <i class="fa fa-certificate" aria-hidden="true"></i>
+                    <b>
+                        <i>
+                            Genuine
+                            Medicines
+                        </i>
+                    </b>
+                </div>
+                <div class="pan">
+                    <i class="fa fa-bus" aria-hidden="true"></i>
+                    <b>
+                        <i>
+                            Timely
+                            Delivery
+                        </i>
+                    </b>
+                </div>
+                <div class="pa">
+                    <i class="fa fa-inr" aria-hidden="true"></i>
+                    <b>
+                        <i>
+                            Easy Returns
+                            & Refunds
+                        </i>
+                    </b>
+                </div>
+                <div class="p">
+                    <i class="fa fa-shield" aria-hidden="true"></i>
+                    <b>
+                        <i>
+                            Secure
+                            Payments
+                        </i>
+                    </b>
+                </div>
+            </div>
+            <h1>Online Pharmacy</h1>
+            <div class="nanual">
+                <div class="nanua">
+                    Need medicines on a regular basis?
+                </div>
+                <div class="nanu">
+                    Have a Prescription?
+                </div>
+                <div class="nan">
+                    Don't have a Prescription?
+                </div>
+            </div>
+            <div class="manual">
+                <div class="manua">
+                    <a href="#">Subscribe Now</a>
+                </div>
+                <div class="manu">
+                    <a href="#">Upload Precription</a>
+                </div>
+                <div class="man">
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+            <div class="connect">
+                <div class="five">You can upload Precription On Whatsapp</div>
+                <hr class="seven">
+                <div class="six"><a href=" https://wa.me/917026673380?text=How%20are%20you%20?"><i class="fa fa-whatsapp" aria-hidden="true"></i><span class="what"> Whatsapp</span></a></div>
+
+            </div>
+
+            <div class="eight">
+                On one click order Medicine.
+            </div>
+            <hr class="nine">
+          
+            <div class="in">How to order medicine? it's simple</div>
+            <div class="nonsense">
+          <div class="inr">
+                <ol>
+                    <li>Upload Valid Pricription</li>
+                    <li>Recieve Confirmation Call</li>
+                    <li>Delivery at your Door Step</li>
+                </ol>
+            </div>
+            <div class="nonsens">
+              <video width="300" height="200" controls>
+                  <source src="video/ved.mp4" type="video/mp4">
+                  
+                  
+              </video>
+           </div>
+           </div>
+		  
+			</div>
+            <div class="jaa">
+                <h3>Follow Us on Social Media</h3>
+                <div class="jav">
+
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><span> Instagram</span></a>
+                    <a href="#"><i class="fa fa-comment" aria-hidden="true"></i><span> Messenger</span></a>
+                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span> Email</span></a>
+                    <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i><span> Whatsapp</span></a>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+                </div>
+
+            </div>
+
+        </div>
+       
+    </div>
+    <div class="footer">
+        <h4>Copyright © 2019 Emergency Delivery Services. All rights reserved</h4>
+    </div>
+</body>
+</html>
